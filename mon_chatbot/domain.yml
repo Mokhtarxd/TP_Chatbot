@@ -1,0 +1,12 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - inform
+responses:
+  utter_greet:
+    - text: "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+  utter_goodbye:
+    - text: "Au revoir ! À bientôt."
+  utter_restaurant_recommendation:
+    - text: "Je vous recommande le restaurant 'Le Gourmet'. Il est situé au centre‑ville."

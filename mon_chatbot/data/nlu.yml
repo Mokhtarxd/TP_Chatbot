@@ -1,0 +1,18 @@
+version: "2.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Bonjour
+      - Salut
+      - Salut, comment ça va ?
+      - Coucou
+  - intent: goodbye
+    examples: |
+      - Au revoir
+      - À bientôt
+      - Bye
+  - intent: inform
+    examples: |
+      - Je cherche un restaurant
+      - Où puis-je trouver un hôtel ?
+      - Avez-vous des recommandations de films ?
